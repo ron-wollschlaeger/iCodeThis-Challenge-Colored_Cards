@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCodeThis Challenge: Colored Cards</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        export default {
+            theme: {
+            extend: {
+            // ...
+            },
+            },
+            plugins: [],
+            }
+    </script>
+</head>
+<body class="flex min-h-screen items-center justify-center bg-[#302341]">
+
+    <main class="flex max-w-lg flex-col lg:max-w-4xl lg:flex-row">
+        <div
+            class="flex flex-col justify-between rounded-tl-lg rounded-tr-lg lg:rounded-tr-none lg:rounded-bl-lg bg-[#8D7DFE] px-14 py-14 text-white lg:w-1/3">
+            <div>
+                <h3 class="font-light text-white/75">Featured</h3>
+                <h2 class="mb-4 text-2xl font-bold">Challenge</h2>
+                <p class="mb-10">Design an icon set with your favorite hobbies.</p>
+            </div>
+            <a class="flex transition-all hover:font-bold" href="#">View Details
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-chevron-right inline-block align-middle" width="20" height="20"
+                    viewBox="0 0 24 18" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M9 6l6 6l-6 6"></path>
+                </svg></a>
+        </div>
+        <div class="flex flex-col justify-between bg-[#C67AFF] px-14 py-14 text-white lg:w-1/3">
+            <div>
+                <h3 class="font-light text-white/75">Blog</h3>
+                <h2 class="mb-4 text-2xl font-bold">Interviews</h2>
+                <p class="mb-10">8 examples of interviews with people who traveled trough Europe.</p>
+            </div>
+            <a class="flex transition-all hover:font-bold" href="#">Read Post
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-chevron-right inline-block align-middle" width="20" height="20"
+                    viewBox="0 0 24 18" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M9 6l6 6l-6 6"></path>
+                </svg></a>
+        </div>
+        <div
+            class="flex flex-col justify-between rounded-bl-lg rounded-br-lg lg:rounded-bl-none lg:rounded-tr-lg bg-[#FF73BC] px-14 py-14 text-white lg:w-1/3">
+            <div>
+                <h3 class="font-light text-white/75">Daily</h3>
+                <h2 class="mb-4 text-2xl font-bold">Practice</h2>
+                <p class="mb-10">Generate daily exercices to improve your skills.</p>
+            </div>
+            <a class="flex transition-all hover:font-bold" href="#">Generate exercise
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-chevron-right inline-block align-middle" width="20" height="20"
+                    viewBox="0 0 24 18" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M9 6l6 6l-6 6"></path>
+                </svg></a>
+        </div>
+    </main>
+    
+</body>
+</html>
